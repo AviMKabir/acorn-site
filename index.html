@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <script>document.body.className += ' fade-out';</script>
 
     <div class="jumbotron jumbotron-fluid">
         <nav class="navbar navbar-expand-xl navbar-light">
@@ -176,15 +177,20 @@
         <div class="container text-center why-list">
 
             <div style="display: inline-block; text-align: left;">
-                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt="" srcset=""> Fits quickly and
+                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt=""
+                        srcset=""> Fits quickly and
                     easily to the stairs, not the wall</p>
-                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt="" srcset=""> Requires no
+                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt=""
+                        srcset=""> Requires no
                     structural changes to your home</p>
-                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt="" srcset=""> Affordable and
+                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt=""
+                        srcset=""> Affordable and
                     reliable with low running costs</p>
-                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt="" srcset=""> Slimline and
+                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt=""
+                        srcset=""> Slimline and
                     folds away conveniently when not in use</p>
-                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt="" srcset=""> Optional hinged
+                <p class="list lead"> <img class="checkbox-img" src="./img/assets/checkbox.png" width="50" alt=""
+                        srcset=""> Optional hinged
                     rail designed to eliminate any trip or hazard</p>
             </div>
 
@@ -247,23 +253,7 @@
 
             </div>
 
-            
-            
-            
-
-
-
-
-
-            
-            
-
-
-
-
         </div>
-
-
 
     </div>
 
@@ -284,6 +274,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+
 </body>
 
 </html>
