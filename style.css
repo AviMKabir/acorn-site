@@ -237,6 +237,12 @@ p {
         background-color: #FFD2B3;
         height: 60vh;
     }
+    .jumbotron {
+        height: 100vh;
+    }
+    .hero-heading{
+        padding-top: 20px;
+    }
  }
 
  /* iPad */
