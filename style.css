@@ -1,0 +1,263 @@
+@font-face {
+    font-family: financierDisplayBold;
+    src: url(./fonts/financier-display-test-bold.woff);
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(./fonts/proximanova-regular-webfont.woff);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: financierDisplayBold;
+}
+
+p {
+    font-family: proximaNova;
+}
+
+/* bootstrap default is xs */
+
+.jumbotron {
+    background: #FFE1F2;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-heading {
+    padding-bottom: 10px;
+}
+
+.hero-copy {
+    font-size: 3.4rem;
+    line-height: 3.5rem;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.checkbox-img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.stair-desc {
+    margin-bottom: 10px;
+}
+
+.stair-icons {
+    padding: 25px 0;
+}
+
+.stair-icon-img {
+    margin-bottom: 15px;
+}
+
+.stair-heading {
+    font-size: 1.5rem;
+}
+
+.icon-text {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.stair-learn-more {
+    color: #DDAC8A;
+}
+
+.form-heading, .why-copy, .read-more-customer {
+    font-size: 2.3rem;
+    line-height: 2.4rem;
+}
+
+.read-more-customer {
+    color: #DDAC8A;
+}
+
+.quote-div {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: #FFD2B3;
+    height: 80vh;
+}
+
+.footer-text {
+    padding-top: 5vh;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .jumbotron {
+        padding: 0 0;
+        background-image: url(./img/assets/hero-alt-3.png);
+        background-size: cover;
+        height: 100vh;
+    }
+    .hero-heading {
+        padding: 15vh 2vh;
+    }
+    .hero-copy {
+        font-size: 4.4rem;
+        line-height: 4.5rem;
+    }
+    .hero-list {
+        padding-top: 1vh;
+    }
+    .lead {
+        font-size: 1.8rem !important;
+    }
+    .checkbox-img {
+        margin-right: 10px;
+    }
+    .stair-icons {
+        padding: 25px 0;
+    }
+    .stair-icon-img {
+        margin-bottom: 10px;
+    }
+    .stair-heading {
+        font-size: 1.5rem;
+    }
+    .icon-text {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        margin-bottom: 0.2rem;
+    }
+    .stair-learn-more {
+        color: #DDAC8A;
+    }
+    .form-heading {
+        font-size: 4.4rem;
+        line-height: 4.5rem;
+    }
+    input, select, textarea {
+        border: 1px solid #222222 !important;
+        border-radius: 0px !important;
+    }
+    .form-control:focus {
+        border-color: #DDAC8A !important;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6) !important;
+        border-radius: 0px !important;
+    }
+    .why-choose, .why-list {
+        padding-top: 3vh;
+    }
+    .why-copy {
+        font-size: 4.4rem;
+        line-height: 4.5rem;
+    }
+    .quote-div {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        ;
+    }
+    .quote-text {
+        font-size: 1.4rem;
+    }
+    .read-more-customer {
+        color: #DDAC8A;
+    }
+    .footer {
+        background-color: #FFD2B3;
+        height: 25vh;
+    }
+    .footer-text {
+        padding-top: 5vh;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1330px;
+    }
+    .quote-form {
+        max-width: 900px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 0 0;
+        background-image: url(./img/assets/hero-alt-3.png);
+        background-size: cover;
+        max-height: 100vh;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .checkbox-img {
+        width: 50px;
+    }
+
+    .icon-text {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-bottom: 0.2rem;
+    }
+    .footer {
+        background-color: #FFD2B3;
+        height: 25vh;
+    }
+}
+
+/* for specific phones */
+
+/* iphone 5/SE */
+@media (width:320px) { 
+    .hero-copy {
+        font-size: 3.0rem;
+        line-height: 3.1rem;
+    }
+ }
+
+ /* iphone X */
+ @media (width:375px) { 
+    .footer {
+        background-color: #FFD2B3;
+        height: 60vh;
+    }
+ }
+
+ /* iPad */
+ @media (width:768px) { 
+    .footer {
+        background-color: #FFD2B3;
+        height: 25vh;
+    }
+    .jumbotron {
+        padding: 0 0;
+        background-image: url(./img/assets/hero-alt-3-tablet.png);
+        background-size: cover;
+        max-height: 100vh;
+    }
+ }
+
+
+  /* ilarge laptop */
+  @media (width:1024px) { 
+    .footer {
+        background-color: #FFD2B3;
+        height: 60vh;
+    }
+ }
